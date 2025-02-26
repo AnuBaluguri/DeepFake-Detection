@@ -52,10 +52,12 @@ To set up the project on your local machine:
          # Run the PreprocessingForVideos.ipynb notebook to extract frames from videos
     •  **Train CNN+LSTM Model**
         python
+   
        # Open CNN+LSTM.ipynb and run all cells to train the model
    
     •  **Train XceptionNet Model**
        python
+   
        # Open XceptionNet.ipynb and execute to train the Xception-based model
     
 # Project Structure
@@ -71,10 +73,15 @@ To set up the project on your local machine:
 Ensure the following dependencies are installed:
 
 •  Python 3.6+
+
 •  NumPy
+
 •  Pandas
+
 •  OpenCV
+
 •  TensorFlow / Keras
+
 •  Matplotlib
 
 # Contributing
