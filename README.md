@@ -49,7 +49,7 @@ To set up the project on your local machine:
      •  **Preprocessing Video Data**
          python
      
-         # Run the PreprocessingForVideos.ipynb notebook to extract frames from videos
+       # Run the PreprocessingForVideos.ipynb notebook to extract frames from videos
     •  **Train CNN+LSTM Model**
         python
    
@@ -99,3 +99,7 @@ Contributions are welcome! Follow these steps:
    ```bash
    git push origin feature/new-feature
 5. Open a pull request.
+
+# License 
+
+This project is licensed under the MIT License. See the LICENSE file for details.
