@@ -37,3 +37,62 @@ To set up the project on your local machine:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
+3. **Install Dependencies**
+   ```bash
+   pip install numpy pandas opencv-python tensorflow keras matplotlib
+# Usage
+1. **Run Jupyter Notebook**
+   ```bash
+   jupyter notebook
+2. **Open and Execute a Notebook**
+  . **Preprocessing Video Data**
+     ```bash
+     python
+     # Run the PreprocessingForVideos.ipynb notebook to extract frames from videos
+  . **Train CNN+LSTM Model**
+    ```bash
+    python
+    # Open CNN+LSTM.ipynb and run all cells to train the model
+  . **Train XceptionNet Model**
+    ```bash
+    python
+    # Open XceptionNet.ipynb and execute to train the Xception-based model
+# Project Structure
+  ```bash
+  DeepFake-Detection/
+  │── PreprocessingForVideos.ipynb   # Preprocessing video data
+  │── CNN+LSTM.ipynb                 # CNN+LSTM model implementation
+  │── XceptionNet.ipynb              # XceptionNet model implementation
+  │── Report.docx                     # Project report and findings
+  │── README.md                       # Project documentation
+
+# Dependencies
+
+Ensure the following dependencies are installed:
+
+Python 3.6+
+NumPy
+Pandas
+OpenCV
+TensorFlow / Keras
+Matplotlib
+Contributing
+Contributions are welcome! Follow these steps:
+
+Fork the repository.
+Create a feature branch:
+bash
+Copy
+Edit
+git checkout -b feature/new-feature
+Commit your changes:
+bash
+Copy
+Edit
+git commit -m "Add new feature"
+Push to your branch:
+bash
+Copy
+Edit
+git push origin feature/new-feature
+Open a pull request.
