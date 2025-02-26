@@ -48,16 +48,16 @@ To set up the project on your local machine:
    
      •  **Preprocessing Video Data**
    ```bash
-           python
+   python
      
-           # Run the PreprocessingForVideos.ipynb notebook to extract frames from videos
-    •  **Train CNN+LSTM Model**
-          ```bash
-          python
+   # Run the PreprocessingForVideos.ipynb notebook to extract frames from videos
+  •  **Train CNN+LSTM Model**
+  ```bash
+  python
     
-          # Open CNN+LSTM.ipynb and run all cells to train the model
+  # Open CNN+LSTM.ipynb and run all cells to train the model
     
-    •  **Train XceptionNet Model**
+•  **Train XceptionNet Model**
         ```bash
         python
     
