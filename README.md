@@ -47,7 +47,7 @@ To set up the project on your local machine:
 2. **Open and Execute a Notebook**
    
      •  **Preprocessing Video Data**
-           ```bash
+   ```bash
            python
      
            # Run the PreprocessingForVideos.ipynb notebook to extract frames from videos
