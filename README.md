@@ -47,23 +47,19 @@ To set up the project on your local machine:
 2. **Open and Execute a Notebook**
    
      •  **Preprocessing Video Data**
-     ```bash
-     python
+         python
      
-     # Run the PreprocessingForVideos.ipynb notebook to extract frames from videos
-  •  **Train CNN+LSTM Model**
-    ```bash
-    python
+         # Run the PreprocessingForVideos.ipynb notebook to extract frames from videos
+    •  **Train CNN+LSTM Model**
+        python
     
-    # Open CNN+LSTM.ipynb and run all cells to train the model
-  •  **Train XceptionNet Model**
-      ```bash
-      python
+        # Open CNN+LSTM.ipynb and run all cells to train the model
+    •  **Train XceptionNet Model**
+          python
     
-      # Open XceptionNet.ipynb and execute to train the Xception-based model
+        # Open XceptionNet.ipynb and execute to train the Xception-based model
     
 # Project Structure
-    ```bash
       DeepFake-Detection/
       │── PreprocessingForVideos.ipynb   # Preprocessing video data
       │── CNN+LSTM.ipynb                 # CNN+LSTM model implementation
