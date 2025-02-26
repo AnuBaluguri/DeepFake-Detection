@@ -33,9 +33,7 @@ To set up the project on your local machine:
    git clone https://github.com/AnuBaluguri/DeepFake-Detection.git
    cd DeepFake-Detection
    
-2. Set Up a Virtual Environment (Recommended)
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+2. **Set Up a Virtual Environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
